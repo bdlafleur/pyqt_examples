@@ -17,6 +17,8 @@ class A(QMainWindow):
 
 class B():
     def pushB(self):
+        # Need to figure out how to access b_checkBox from
+        # self.ui in class A
         if self.b_checkBox.isChecked():
             print('You pushed the "B" button')
             print()
@@ -25,6 +27,8 @@ class B():
 
 class C():
     def pushC(self):
+        # Need to figure out how to access c_checkBox from
+        # self.ui in class A
         if self.c_checkBox.isChecked():
             print('You pushed the "C" button')
             print()
