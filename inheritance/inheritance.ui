@@ -40,6 +40,32 @@
      <string>C</string>
     </property>
    </widget>
+   <widget class="QCheckBox" name="b_checkBox">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>130</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Check to print B</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="c_checkBox">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>130</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Check to print C</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

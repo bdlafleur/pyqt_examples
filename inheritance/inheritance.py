@@ -20,6 +20,12 @@ class Ui_MainWindow(object):
         self.c_pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.c_pushButton.setGeometry(QtCore.QRect(230, 50, 151, 81))
         self.c_pushButton.setObjectName("c_pushButton")
+        self.b_checkBox = QtWidgets.QCheckBox(self.centralwidget)
+        self.b_checkBox.setGeometry(QtCore.QRect(50, 130, 131, 20))
+        self.b_checkBox.setObjectName("b_checkBox")
+        self.c_checkBox = QtWidgets.QCheckBox(self.centralwidget)
+        self.c_checkBox.setGeometry(QtCore.QRect(240, 130, 131, 20))
+        self.c_checkBox.setObjectName("c_checkBox")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 452, 22))
@@ -37,6 +43,8 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.b_pushButton.setText(_translate("MainWindow", "B"))
         self.c_pushButton.setText(_translate("MainWindow", "C"))
+        self.b_checkBox.setText(_translate("MainWindow", "Check to print B"))
+        self.c_checkBox.setText(_translate("MainWindow", "Check to print C"))
 
 
 if __name__ == "__main__":

@@ -15,15 +15,21 @@ class A(QMainWindow):
         self.ui.b_pushButton.clicked.connect(self.B.pushB)
         self.ui.c_pushButton.clicked.connect(self.C.pushC)
 
-class B:
+class B():
     def pushB(self):
-        print('You pushed the "B" button')
-        print()
+        if self.b_checkBox.isChecked():
+            print('You pushed the "B" button')
+            print()
+        else:
+            print('Check the check box to print the correct statement.')
 
-class C:
+class C():
     def pushC(self):
-        print('You pushed the "C" button')
-        print()
+        if self.c_checkBox.isChecked():
+            print('You pushed the "C" button')
+            print()
+        else:
+            print('Check the check box to print the correct statement.')
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
